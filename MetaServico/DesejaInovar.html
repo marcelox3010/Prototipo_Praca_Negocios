@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Question&aacute;rio SMPE</title>
+<link rel="stylesheet" type="text/css" href="smpe_quest.css" />
+<script src="jquery-2.1.1.js"></script>
+<script src="smpe_quest.js"></script>
+<script>
+$(function(){
+      $("#id_div_navegacao").load("rodape.html"); 
+    });
+</script>
+</head>
+<body>
+	<input type="hidden" name="voltar" id="id_voltar" value="index.html">
+	<div id="id_div_caixa_principal">
+
+		<div id="id_div_pergunta">
+			<p id="id_p_pergunta">
+				<span id="id_span_pergunta"> 
+					Como deseja inovar?
+				</span>		
+					 		
+			</p>
+			
+		</div>
+		
+		<div id="id_div_respostas">
+			<h6><a href="index.html" class="migalhas">Praça de Negócio</a> &gt; Como deseja inovar?</h6><p/>
+			
+			<div class="div_texto_principal">
+				Os efeitos da inovação são relevantes para os pequenos negócios, pois possibilita a ampliação da participação dessas empresas no mercado, a elevação de sua capacidade produtiva, a diversificação de produtos e a redução dos custos. Inovação é toda novidade implantada pela micro e pequena empresa que aumenta a eficiência do processo produtivo ou que implica um novo ou aprimorado produto.
+			</div>
+			
+			<p/>
+			<input type="radio" name="opcao" id="id_label_saiba_mais_1"
+				value="ConhecaMercado.html"
+				 />
+			Inovação de Produto 
+			<p />
+			<div id="id_div_saiba_mais_1" class="div_saiba_mais">
+				<h3>Saiba Mais</h3>
+				O diagn&oacute;stico empresarial &eacute; uma ferramenta que serve para o empres&aacute;rio/gestor identificar os pontos fortes e pontos de melhoria na empresa em um dado momento.
+A partir do resultado do diagn&oacute;stico ser&aacute; proposto um plano de a&ccedil;&atilde;o para corre&ccedil;&atilde;o ou melhorias em cada &aacute;rea da empresa.
+O diagn&oacute;stico funciona como um check-up para analisar a situa&ccedil;&atilde;o da empresa.
+				<h3>Orienta&ccedil;&otilde;es</h3>
+				<p>Para realizar o Diag&oacute;stico Empresarial ou Cursos acesse: <a href="http://www.sebrae.com.br" target="_new">www.sebrae.com.br</a> </p>
+				
+				<a href="javascript:void(0);"
+					id="id_fechar_saiba_mais_1"> [Fechar] </a>
+			</div>
+			<p />
+
+
+			<p />
+
+			<input type="radio" name="opcao" id="id_opcao_1"
+				value="CursosFerramentas.html"
+				onclick="javascript:document.location = this.value;" />
+			Inovação de Processo
+
+
+
+		</div>
+		
+
+		
+		
+		<div id="id_div_navegacao"></div>
+
+	</div>
+
+</body>
+</html>

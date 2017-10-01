@@ -1,0 +1,167 @@
+﻿<html>
+
+	<head>
+		<title>Saiba Mais - PES</title>
+		<link rel="stylesheet" href="css/meta_servico.css" />		
+		
+	</head>
+
+	<body>
+		
+		<div id="id_div_caixa_principal" style="font-family:Sans-serif">
+	
+			<div id="id_div_pergunta">
+				<p id="id_p_pergunta"  >
+					<span id="id_span_pergunta">
+						Exigências
+					</span>
+				</p>
+			</div>
+			
+			<div id="id_div_respostas">
+				
+				
+				
+				
+				
+				
+ 
+				
+				
+				
+				
+				
+				<p><div align='justify'>A administração pública oferece excelentes oportunidades para as micro e pequenas empresas (MPE), mas vender para o governo requer a observância de uma série de exigências legais específicas, ou seja, leis e normas não usuais no comércio em geral, que tratam de cadastramento prévio e comprovação da regularidade jurídica, econômica, fiscal e com a seguridade social, entre outros. </div></p>
+
+<p><div align='justify'>A lei federal 8.666, de 1993, detalha os modelos de licitação possíveis para todas as esferas do governo (federal, estadual e municipal) e em 2002, foi promulgada a lei federal 10.520 que regularizou uma nova modalidade de licitação: o pregão para aquisição de bens e serviços comuns.</div></p>
+
+<p><div align='justify'>Mais recentemente, a <b>Lei Complementar N° 123</b>, <span style='text-decoration:underline'>Lei Geral para Micro e Pequenas Empresas</span>, promulgada em dezembro de 2006, trouxe uma série de vantagens para este tipo de empresa. </div></p>
+
+
+
+<p><div align='justify' style='background-color:#dddddd'>Conheça as Leis e Normas que trazem o tratamento favorecido e diferenciado para as Microempresas e Empresas de Pequeno Porte. <a href='javascript:void(0);'
+	
+	onclick='
+		
+		document.getElementById("a1").style.display="block";
+		document.getElementById("a2").style.display="none";
+		document.getElementById("a3").style.display="none";
+		
+		'
+	
+
+>Clique aqui</a></div></p>
+<p><div align='justify' style='background-color:#dddddd'>Conheça as Leis e Normas que regem os processos licitatórios.*  <a  href='javascript:void(0);'
+
+	onclick='
+		
+		document.getElementById("a1").style.display="none";
+		document.getElementById("a2").style.display="block";
+		document.getElementById("a3").style.display="none";
+		
+		'
+
+>Clique aqui</a></div></p>
+<p><div align='justify' style='background-color:#dddddd'>Conheça as Leis e Normas que tratam da sustentabilidade nas compras públicas. <a  href='javascript:void(0);'
+	onclick='
+		
+		document.getElementById("a1").style.display="none";
+		document.getElementById("a2").style.display="none";
+		document.getElementById("a3").style.display="block";
+		
+		'
+
+
+
+>Clique aqui</a></div></p>
+
+<hr>
+<div style='display:none' id='a1'>
+
+	<p><div align='justify'>Segue abaixo o conteúdo do passo a passo:</div></p>
+	<p><div align='justify'><a target='_blank' href='http://www2.camara.leg.br/legin/fed/leicom/2006/leicomplementar-123-14-dezembro-2006-548099-normaatualizada-pl.html'>Lei Complementar N° 123 de 2006</a></div></p>
+	<p><div align='justify'>Institui o Estatuto Nacional da Microempresa e da Empresa de Pequeno Porte e estabelece normas gerais relativas ao tratamento diferenciado e favorecido a ser dispensado às microempresas e empresas de pequeno porte no âmbito dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios.</div></p>
+	<p><div align='justify'><a target='_blank' href='http://www.planalto.gov.br/ccivil_03/_Ato2007-2010/2007/Decreto/D6204.htm'>Decreto 6.204/07</a></div></p>
+	<p><div align='justify'>Regulamenta o tratamento favorecido, diferenciado e simplificado para as microempresas e empresas de pequeno porte nas contratações públicas de bens, serviços e obras, no âmbito da administração pública federal.</div></p>
+	<p><div align='justify'>* As Leis Estaduais e Municipais que tratam do tratamento favorecido e diferenciado às MPE podem ser consultadas no site <a href='http://www.leigeral.com.br/portal/main.jsp' target='_blank'>http://www.leigeral.com.br/portal/main.jsp</a></div></p>
+	
+
+</div>
+
+
+
+<div style='display:none' id='a2'>
+	<p><div align='justify'>* Esclarecemos que não estão contemplados abaixo as Leis Estaduais e Municipais que tratam de licitações.</div></p>
+
+	<p><div align='justify'><a target='_blank' href='http://www.planalto.gov.br/ccivil_03/leis/l8666cons.htm'>Lei 8.666</a></div></p>
+	
+	
+	<p><div align='justify'>Regulamenta o art. 37, inciso XXI, da Constituição Federal, institui normas para licitações e contratos da Administração Pública e dá outras providências.  </div></p>
+	<p><div align='justify'><a target='_blank' href='http://www.planalto.gov.br/ccivil_03/decreto/2001/D3722.htm'>Decreto 3.722/01</a></div></p>
+	<p><div align='justify'>Regulamenta o art. 34 da Lei no 8.666, de 21 de junho de 1993, e dispõe sobre o Sistema de Cadastramento Unificado de Fornecedores - SICAF.</div></p>
+	<p><div align='justify'><a target='_blank' href='http://www.planalto.gov.br/ccivil_03/_Ato2011-2014/2013/Decreto/D7892.htm'>Decreto 7.892/13</a></div></p>
+	<p><div align='justify'>Regulamenta o Sistema de Registro de Preços previsto no art. 15 da Lei nº 8.666, de 21 de junho de 1993</div></p>
+	<p><div align='justify'><a target='_blank' href='http://www.planalto.gov.br/ccivil_03/leis/2002/l10520.htm'>Lei 10.520/02</a></div></p>
+	<p><div align='justify'>Institui, no âmbito da União, Estados, Distrito Federal e Municípios, nos termos do art. 37, inciso XXI, da Constituição Federal, modalidade de licitação denominada pregão, para aquisição de bens e serviços comuns e dá outras providências.</div></p>
+	<p><div align='justify'><a target='_blank' href='http://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/decreto/d5450.htm'>Decreto N° 5.450/05</a></div></p>
+	<p><div align='justify'>Regulamenta o pregão, na forma eletrônica, para aquisição de bens e serviços comuns, e dá outras providências.</div></p>
+	<p><div align='justify'><a target='_blank' href='http://www.planalto.gov.br/Ccivil_03/_ato2004-2006/2005/Decreto/D5504.htm'>Decreto 5.504/05</a></div></p>
+	<p><div align='justify'>Estabelece a exigência de utilização do pregão, preferencialmente na forma eletrônica, para entes públicos ou privados, nas contratações de bens e serviços comuns, realizadas em decorrência de transferências voluntárias de recursos públicos da União, decorrentes de convênios ou instrumentos congêneres, ou consórcios públicos.</div></p>
+	<p><div align='justify'><a target='_blank' href='http://www.planalto.gov.br/ccivil_03/_Ato2007-2010/2010/Decreto/D7174.htm'>Decreto 7.174/10</a></div></p>
+	<p><div align='justify'>Regulamenta a contratação de bens e serviços de informática e automação pela administração pública federal, direta ou indireta, pelas fundações e pelas demais organizações sob o controle direto ou indireto da União.</div></p>
+	<p><div align='justify'><a target='_blank' href='http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/Lei/L12462.htm'>Lei 12.462/11</a></div></p>
+	<p><div align='justify'>Institui Regime Diferenciado de Contratações Públicas – RDC para os Jogos Olímpicos e Paraolímpicos de 2016, Copa das Confederações da Federação Internacional de Futebol Associação Fifa 2013 e Copa do Mundo de futebol de 2014.</div></p>
+	<p><div align='justify'><a target='_blank' href='http://www.planalto.gov.br/ccivil_03/_Ato2011-2014/2011/Decreto/D7601.htm'>Decreto N° 7.601/11</a></div></p>
+	<p><div align='justify'>Estabelece a aplicação de margem de preferência nas licitações realizadas no âmbito da administração pública federal para aquisição de produtos de confecções, calçados e artefatos.</div></p>
+	<p><div align='justify'><a target='_blank' href='http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/Lei/L12598.htm'>Lei 12.598/12</a></div></p>
+	<p><div align='justify'>Estabelece normas especiais para as compras, as contratações e o desenvolvimento de produtos e de sistemas de defesa; dispõe sobre regras de incentivo à área estratégica de defesa; altera a Lei nº 12.249, de 11 de junho de 2010; e dá outras providências.</div></p>
+
+</div>
+
+
+<div style='display:none' id='a3'>
+
+	<p><div align='justify'><a target='_blank' href='http://www.mds.gov.br/acesso-a-informacao/orgaoscolegiados/orgaos-em-destaque/ciisc/arquivos/legislacao/Instrucao%20Normativa%20no%201-%20de%2019.01.10.pdf/view'>Instrução Normativa n° 01/10</a></div></p>
+	<p><div align='justify'>Estabelece critérios de sustentabilidade ambiental na aquisição de bens, contratação de serviços ou obras na Administração Pública Federal.</div></p>
+	<p><div align='justify'><a target='_blank' href='http://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12305.htm'>Lei 12.305/10</a></div></p>
+	<p><div align='justify'>Estabelece como objetivos a prioridade, nas aquisições e contratações governamentais, para produtos reciclados e recicláveis e para bens, serviços e obras que considerem critérios compatíveis com padrões de consumo social e ambientalmente sustentáveis. </div></p>
+	<p><div align='justify'><a target='_blank' href='http://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/lei/l12187.htm'>Lei 12.187/09</a></div></p>
+	<p><div align='justify'>Prevê critérios de preferência nas licitações públicas para propostas que propiciem maior economia de energia, água e outros recursos naturais.</div></p>
+	<p><div align='justify'><a target='_blank' href='http://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/lei/l11947.htm'>Lei 11.947/09</a></div></p>
+	<p><div align='justify'>Dispõe sobre a alimentação escolar e prevê que 30% dos recursos repassados pela União para os Estados e Municípios, devem ser aplicados na compra de produtos provenientes da agricultura familiar. </div></p>
+	<p><div align='justify'><a target='_blank' href='http://www.planalto.gov.br/ccivil_03/decreto/d2783.htm'>Decreto 2.783/98</a></div></p>
+	<p><div align='justify'>Dispõe sobre proibição de aquisição de produtos ou equipamentos que contenham ou façam uso das Substâncias que Destroem a Camada de Ozônio - SDO, pelos órgãos e pelas entidades da Administração Pública Federal direta, autárquica e fundacional, e dá outras providências.</div></p>
+	<p><div align='justify'><a target='_blank' href='http://www.planalto.gov.br/ccivil_03/_Ato2007-2010/2010/Lei/L12349.htm'>§ 5° da Lei n°12.349/10</a></div></p>
+	
+	<p><div align='justify'>Aplica margem de preferência de até 25% para produtos manufaturados e serviços nacionais que atendam a normas técnicas brasileiras e incorporem inovação.</div></p>
+	
+	
+	<p><div align='justify'><a target='_blank' href='http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/Lei/L12873.htm'>Lei 12.873/13</a></div></p>
+	<p><div align='justify'>Autoriza a Companhia Nacional de Abastecimento a utilizar o Regime Diferenciado de Contratações Públicas – RDC, instituído pela Lei nº 12.462, de 4 de agosto de 2011, para a contratação de todas as ações relacionadas à reforma, modernização, ampliação ou construção de unidades armazenadoras próprias destinadas às atividades de guarda e conservação de produtos agropecuários em ambiente natural;</div></p>
+	<p><div align='justify'><a target='_blank' href='http://www.planalto.gov.br/ccivil_03/_Ato2011-2014/2012/Decreto/D7746.htm'>Decreto 7.746/12</a></div></p>
+	<p><div align='justify'>Regulamenta o art. 3o da Lei no 8.666, de 21 de junho de 1993, para estabelecer critérios, práticas e diretrizes para a promoção do desenvolvimento nacional sustentável nas contratações realizadas pela administração pública federal, e institui a Comissão Interministerial de Sustentabilidade na Administração Pública – CISAP.
+
+</div></p>
+					
+</div>				
+				
+				
+				
+			</div>
+		
+			<div style="height:30px;"></div>
+			
+			<div id="id_div_navegacao">
+				<div id="id_menu_navegacao_bem-vindo" >
+					<p id="id_p_pergunta"  >
+						<span id="id_span_pergunta">
+							Bem vindo à Praça de Negócios
+						</span>
+					</p>
+				</div> 
+			</div>
+		</div>
+		
+	</body>
+
+</html>

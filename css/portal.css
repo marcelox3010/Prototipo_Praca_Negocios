@@ -1,0 +1,1224 @@
+@CHARSET "UTF-8";
+
+@font-face { 
+	font-family: "OpenSans-Regular"; 
+	src: url("../fonts/OpenSans-Regular.eot"); 
+	/* para IE */
+	src: url("../fonts/OpenSans-Regular.otf");
+	src: url("../fonts/OpenSans-Regular.ttf");
+	src: url("../fonts/OpenSans-Regular.woff"); 
+}
+
+@font-face {
+    font-family: "OpenSans-Semibold";
+    src: url("../fonts/OpenSans-Semibold.ttf");
+}
+
+@font-face {
+    font-family: "OpenSans-Italic";
+    src: url("../fonts/OpenSans-Italic.ttf");
+}
+
+body {
+	background: none repeat scroll 0 0 #FFFFFF;	
+	margin: 0;
+	padding: 0;
+	color: #000;
+	font-family: 'OpenSans-Regular', sans-serif; 
+	font-size: 14px;
+}
+
+h2
+{
+	font-size: 15px;
+	color: #fcfcfc;
+}
+
+h3{
+	color: #3a7178;
+	font-size: 12px;	
+}
+
+h4{
+	color: #3a7178;
+	font-size: 13px;
+}
+
+h5 {
+	font-size: 12px;
+	color: #316a72;
+	font-size: 12px;	 
+   	margin-bottom: 0;
+    margin-top: 0;
+	padding: 5px 10px;
+}
+
+
+a,a:link,a:visited,a:hover,a:active {
+	color: inherit;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+ul {
+	list-style: none outside none;
+	margin: 0;
+	padding-left: 0px;
+}
+
+li {
+	font-size: 11px;
+	display: inline;
+}
+
+select, input, button, textarea {
+    font-family: 'OpenSans-Regular', sans-serif;
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+	height: 120px;
+	width: 500px;
+}
+
+select {
+    background: none repeat scroll 0 0 #F1F6FA;
+    border: 1px solid #C0D8E8;
+    color: #596276;
+    height: 25px;
+    width: 80%;
+    margin: 20px;
+}
+
+p{
+	text-align: justify;
+}
+
+input[type=button],
+input[type=submit],
+input[type=reset] {
+	background: #DBAB33;
+	border: 1px solid #DBAB33;
+	height: 26px;
+	line-height: 24px;
+	color: #fff;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+input[type=text],
+input[type=password],
+select,textarea {
+	font-size: 14px;
+	color: #696a6a; 
+    background: none repeat scroll 0 0 #f9f8f8;
+    border: 1px solid #A8A8A8;
+    border-radius: 3px;
+}
+
+input[type=button]:hover,
+input[type=submit]:hover,
+input[type=reset]:hover {
+	background: #deb400	;
+	border: 1px solid #c7a202;
+	cursor: pointer;
+}
+
+.formulario{
+	width: 60%;
+}
+
+.line {
+    margin: 0 0 10px;
+    overflow: hidden;
+}
+
+.lineButtons {
+	margin-right: 3%;
+    overflow: hidden;
+	float: right;
+}
+
+.unit {
+    margin: 0 10px 0 0;
+    overflow: hidden;    
+}
+
+label
+{
+    display: block;
+    float: left;
+    text-align: right;
+    width: 100px;
+}
+
+.label .label_email{
+	width:60px;
+}
+
+.data{
+	float : left;
+}
+
+.w025 { width: 25px; }
+.w030 { width: 30px; }
+.w050 { width: 50px; }
+.w100 { width: 100px; }
+.w150 { width: 150px; }
+.w200 { width: 200px; }
+.w220 { width: 220px; }
+.w250 { width: 250px; }
+.w270 { width: 270px; }
+.w280 { width: 280px; }
+.w285 { width: 285px; }
+.w310 { width: 310px; }
+.w300 { width: 300px; }
+.w350 { width: 350px; }
+.w400 { width: 400px; }
+.w445 { width: 445px; }
+.w450 { width: 450px; }
+.w500 { width: 500px; }
+.w600 { width: 500px; }
+
+.telefone{
+	width: 30px;
+	margin-right: 2px;
+}
+/* ------------------------------
+#id divConteudo styles
+------------------------------ */
+#divConteudo {
+	background: url("../images/conteudo/fundo_degrade.png") repeat-x scroll center top #fffffe;
+    height: 100%;
+    margin-bottom: 0;
+    position: relative;
+    width: 100%;
+}
+
+#divCabecalho {
+	height: 152px;
+	background: url("../images/header/header_fundo.png") no-repeat scroll center 28px #B5D1D6;
+}
+/* ------------------------------
+.class barra Governo divGoverno styles
+------------------------------ */
+#divGoverno
+{
+	background: none repeat-x scroll 0 0 #7f7f7f;	
+}
+#divGoverno .logoBrasil
+{
+    background: url("../images/barraGovernoBrasil/barrabrasil.png") no-repeat scroll 0 0 transparent;
+    float: right;
+    height: 28px;
+    width: 200px;    
+}
+    
+#divGoverno .barraacessiblidade
+{
+    background: url("../images/barraGovernoBrasil/acessoinformacao.png") no-repeat scroll 0 0 transparent;
+    float: right;
+    height: 28px;
+    width: 160px;
+    margin-top: 4px;
+}
+
+#divGoverno .partialBar {
+    background: url("../images/barraGovernoBrasil/cinza_logo.png") repeat-x scroll 0 0 transparent;
+    height: 28px;
+    margin-right: 200px;    
+}
+
+#divMenuSuperior{
+    clear: both;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+/* ------------------------------
+#id menuIrPara styles
+------------------------------ */
+#divMenuIrPara {
+    font-size: 12px;
+    margin: 2px 0 0 6%;
+    float: left;	
+}
+
+#divMenuIrPara ul {
+    padding: 0;
+    width: 100%;
+}
+
+#divMenuIrPara li {
+	color: #316870;
+	display: inline;
+}
+
+#divMenuIrPara a {
+	background-color: #5fa4ab;
+	color: #d7d3d2;
+	padding: 0 2px;
+	font-size: 9px;
+}
+
+#divMenuAcessibilidade{
+	float: right;
+    margin-right: 5%;	
+}
+
+#divMenuAcessibilidade a{
+	background: none !important;
+	color: #3f7982;
+	margin-right: 10px;
+	font-size: 9px;
+}
+
+/* ------------------------------
+#id Barra Empresa Simples styles
+------------------------------ */
+#divBarraEmpresaSimples {
+    position: absolute;
+	margin-left: 6%;
+	margin-top: 10px;
+}
+
+#divBarraEmpresaSimples .imagem_slogan{
+	height: 71px;
+	margin-top: 15px;
+}
+/* ------------------------------
+#id login styles
+------------------------------ */
+#divLogin {
+	position: absolute;
+	right: 6%;
+	top: 40px;
+	background: url("../images/header/bgLogin.png") repeat scroll 0 0 transparent;
+	color: #316a72;
+	height: 100px;
+	border-radius: 10px;
+	width: 280px;
+}
+
+#divLogin .line
+{	
+	margin: 0 10px;
+	height: 24px;
+}
+
+#divLogin input[type=text]
+{
+	font-size: 11px;
+	color: #696a6a;
+	width: 35%;
+	padding: 0 0 0 10px;
+	height: 23px; 
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #A8A8A8;
+}
+
+#divLogin a {
+	color: #017080;
+	width: 150px;
+	font-size: 11px;
+	padding-right: 11%;
+}
+
+#divLogin .useCerificado
+{
+    color: #FFFFFF;
+    font-size: 13px;
+    height: 19px;
+    padding-left: 50px;
+    padding-right: 10px;	
+}
+
+#divLogin .certificadodigital{
+	height: 20px;
+    width: 20px;
+	margin-top: 1px;
+    position: absolute;
+}
+
+
+#recuperar_senha {
+	margin-top: 10px; 
+	margin-left: 10px;
+}
+
+#divLogin .btnLogin {
+	color: #ffffff;
+	border: none;
+	background-color: #f0b41e;
+    height: 23px;
+    width: 26px;
+    padding-left: 0;
+    padding-right: 0;    
+}
+
+#login_bemvindo {
+	position: absolute;
+	right: 6%;
+	top: 40px;
+	background: url("../images/header/bgLogin.png") repeat scroll 0 0 transparent;
+	color: #316a72;
+	font-size: 13px;
+	height: 100px;
+	border-radius: 10px;
+	width: 280px;
+ 	padding-left: 10px;
+    padding-right: 10px;	
+}
+
+#login .bemvindo{
+	margin: 20px 0 0 15px;
+	height: 23px;
+}
+
+#login p{
+	font-size: 12px;
+	width: 90%;
+	margin: 0 0 10px 0;
+}
+span.login_name {
+	font-weight: bold;
+}
+
+span.login_acesso {
+	color: #ffffff;
+}
+
+/* ------------------------------
+#id divMenu styles
+------------------------------ */
+#divMenu {
+    width: auto;
+    height: 15px;	
+    background: url("../images/header/menu_horiz_01.png") repeat scroll top center transparent;
+}
+
+#divMenu #divMenuEsquerdo{
+    background: url("../images/header/menu_horiz_02.png") no-repeat scroll center top transparent;
+    height: 44px;
+    left: 6%;
+    margin-left: -8px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 8px;
+}
+
+#divMenu #divMenuDireito{
+    background: url("../images/header/menu_horiz_04.png") no-repeat scroll center top transparent;
+    height: 44px;
+    margin-right: -8px;
+    position: absolute;
+    right: 6%;
+    top: 0;
+    width: 8px;
+}
+
+#divMenu #divMenuCentral {
+    background: url("../images/header/menu_horiz_03.png") repeat scroll center top transparent;
+    color: #E2E1E1;
+    height: 44px;
+    margin-left: 6%;
+    width: 88%;    
+}
+
+#divMenu a{
+	font-size: 14px;
+}
+#divMenu #divMenuCentral ul {
+    list-style-type: none;
+    margin-left: 10%;
+    padding-top: 5px;
+    position: absolute;
+    width: 80%;
+}
+
+#divMenu #divMenuCentral li {
+   padding-right: 5%;
+}
+
+#divMenu #divRSS{
+    position: absolute;
+	height: 20px; 
+	padding-top: 8px;
+    right: 26%;
+    width: 20px;	
+}
+
+#mnuMenu .separador{
+	font-size: 18px;
+}
+
+#divMenu #divBuscar {
+    margin-right: 22px;
+    margin-top: 6px;
+    position: absolute;
+    right: 5%;
+    text-align: right;
+    width: 19%;
+}
+
+#divMenu input[type=text] {
+	color: #696a6a;
+    width: 81%;	
+	font-size: 11px;
+	height: 23px;
+}
+
+#divMenu .btnPesquisar {
+   	background: url("../images/header/search.png") no-repeat scroll center center #F0B41E;
+    border: medium none;
+    border-radius: 4px 4px 4px 4px;
+    cursor: pointer;
+    height: 21px;
+    padding-top: 8px;
+    width: 21px;
+}
+
+
+/* ------------------------------
+#id breadcrumbs styles
+------------------------------ */
+#divBreadcrumb {
+	height:23px;
+	background-color: #E1E3E3;
+    width: 88%;
+    margin: 50px 0 0 6%;
+}
+
+#divBreadcrumb ul {
+	list-style-type: none;
+  	height: 23px;
+}
+
+#divBreadcrumb li {
+	padding-right:10px;	
+	float: left;
+    padding: 0 15px;
+    line-height: 23px;
+    color: #316870;
+    font-size: 11px;
+    background: url("../images/header/seta_interna.png") no-repeat scroll right 0 transparent;	
+}
+
+#divBreadcrumb li.first {
+	padding: 0 15px 0 10px;
+	color: #fcfcfc;
+	background: url("../images/header/seta.png") no-repeat scroll right 100% #dbab33; 	
+}
+
+#divBreadcrumb li.last {
+	background: none;
+}
+	
+#divBreadcrumb a{
+	font-size: 11px;	
+}
+
+#divTudo
+{
+    clear: both;
+    margin: 20px 6%;
+    overflow: hidden;
+}
+
+#divBanners li{
+	font-family: "OpenSans-Semibold";
+	color: #ffffff;
+	font-size: 13px;
+}
+
+#divRegistroEmpresas{
+	float: left;
+	width: 49%;	
+	position: relative;
+}
+
+#divRegistroEmpresas img{
+	width: 100%;	
+}
+
+.linksEmpresa{	
+	bottom: 2px;
+    right: 5%;
+    position: absolute;
+}
+
+#divPracaEletronica{
+	float: right;
+	width: 49%;
+	position: relative;	
+}
+
+#divPracaEletronica img{
+	width: 100%;	
+}
+
+.linksPraca{
+	bottom: 3px;
+    right: 5%;
+    position: absolute;
+}
+
+/* ------------------------------
+#id divMenuEsquerdo styles
+------------------------------ */
+#divMenuEsquerdo {
+    float: left;
+    width: 20%;
+}
+
+.Menulinks{
+	margin-bottom: 30px;
+}
+
+.Menulinks h3 {
+	border-top: 2px solid #4a949f;
+	padding: 10px 0 15px 8px;
+	width: auto;
+	margin: 0;
+	background-color: #d3d8db;
+	color: #2c595f;
+}
+
+.Menulinks li {
+    border-bottom: 1px solid #DFE8E7;
+    color: #727473;
+    padding: 15px 0 15px 5%;
+	display: block;
+}
+
+.Menulinks li:hover {
+    background-color: #F1E4C4;
+}
+
+/* ------------------------------
+#id contentMiddle styles
+------------------------------ */
+#divPortlets {
+    float: left;
+    margin-left: 2%;
+    width: 78%;
+    margin-bottom: 20px;
+}
+
+#divPortlets h2 {
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 3px 15px;
+	margin: 0;
+}	
+
+#divPortlets img {
+    float: left;
+    height: 10%;
+	margin-right: 20px;
+	margin-bottom: 10px;
+    width: 50%;
+}
+
+#divPortlets p{
+	color: #585757;
+    font-size: 12px;
+}
+
+#divPortlets a.NoticiaPrincipal {
+    color: #4799A3;
+    font-size: 14px;
+    margin: 0;
+}
+
+#divPortlets a.OutrasNoticias {
+    color: #B78D25;
+    float: right;
+    font-size: 13px;
+    margin: 30px 0;
+}
+
+#divConteudoPrincipal{
+	clear: both;
+	padding-top: 20px; 
+}
+
+#divNoticias {
+	float: left;
+	background-color: #FFFFFF;
+    border-top-left-radius: 20px;
+    width: 49%;
+    margin-right: 1%;
+    height: 270px;
+    margin-top: 20px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+#divNoticias h2 {
+    background: url("../images/conteudo/eye.png") no-repeat scroll 98% center #DBAB33;
+}
+
+#divNoticiasConteudo {
+    margin: 20px 14px;
+}
+
+#divCertificadoDigital {
+	float: left;
+	background-color: #fefdfc;
+    border-top-left-radius: 20px;
+    width: 49%;
+    margin-right: 1%;
+	height: 270px;   
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;	 
+}
+
+#divCertificadoDigital h2 {
+    background: url("../images/conteudo/arroba.png") no-repeat scroll 98% center #DBAB33;
+}
+
+#divLegislacao {
+	float: right;
+	background-color: #fefdfc;
+    border-top-left-radius: 20px;
+    width: 49%;
+	height: 270px;    
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+#divLegislacao h2 {
+    background: url("../images/conteudo/martelo.png") no-repeat scroll 98% center #DBAB33;
+}
+
+#divLegislacaoConteudo {
+    margin: 20px 10px 0 14px;
+}
+
+#divCertificadoConteudo{
+	margin: 20px 10px 0 14px;
+}
+
+/* ------------------------------
+#divQuemFazEmpresaSimples styles
+------------------------------ */
+#divQuemFazEmpresaSimples{
+	float: right;
+	background-color: #FFFFFF;
+    border-top-left-radius: 20px;
+    width: 49%;
+	height: 270px;
+	margin-top: 20px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+#divQuemFazEmpresaSimples h2 {
+ 	background: url("../images/conteudo/tool.png") no-repeat scroll 98% center #87b884;
+}
+
+#divQuemFazEmpresaConteudo{
+	padding: 20px 10px 0 14px;
+}
+
+#divQuemFazEmpresaSimples img.imagem_redesim{
+    float: right;
+    height: 71px;
+    width: 40%;
+}
+
+#divQuemFazEmpresaSimples img.imagem_forum
+{
+    float: left;
+    height: 71px;
+    width: 175px;
+    padding-left: 30%;
+    padding-top: 20px;    
+}
+
+#divQuemFazEmpresaSimples img.imagem_simplesnacional
+{
+	float: left;
+	padding-left: 6%;
+    height: 71px;
+    width: 40%;
+}
+
+#divMEI{
+    border: 1px solid #DFDFDF;	
+}
+
+#divMEI img{
+    height: 80px;
+    width: 100%;
+}
+
+#divPAB{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DFDFDF;
+    margin: 30px 0 0;
+    padding-left: 5%;
+}
+
+#divPAB img{
+	height: 50%;
+    width: 70%;
+}
+/* ------------------------------
+#id contentEmpresa styles
+------------------------------ */
+#contentEmpresaGeral{
+	background-color: #ffffff;
+	height: 930px;
+	width: 100%;
+	border-top-left-radius: 20px;
+	font-size: 13px;
+}
+
+#contentEmpresaGeral h2 {
+  	background: url("../images/conteudo/star.png") no-repeat scroll 98% center #DBAB33;
+}
+
+#contentEmpresa {
+	margin-left: 25px;
+	width: 96%;
+	color: #585757;
+}
+
+#contentEmpresa h3{
+    border-bottom: 2px dotted #E3E5E5;
+    font-size: 18px;
+    width: 96%;
+}
+
+#contentEmpresa p{
+	width: 96%;
+}
+#contentEmpresa .outros_titulos{
+	border-bottom: 2px dotted #E3E5E5;
+	color: #4799a3;	
+	font-size: 14px;
+	margin: 20px 0 10px 10px;
+	padding: 2px 0 5px;	
+}
+
+#contentEmpresa ul{
+	list-style: disc outside url("../images/conteudo/bullet2.png");
+    padding-left: 30px;	
+}
+	
+#contentEmpresa li{
+	font-size: 13px;
+	width: 96%;
+	padding: 5px 0 5px 0;
+}
+
+#divConteudoOutrosLinks{
+	float: right;
+    margin-left: 2%;
+    width: 78%;	
+}
+
+#divVoltar{
+	float: right;
+    width: 8%;
+    clear: both;	
+}
+
+#divVoltar img{
+    float: left;
+    margin-right: 10px;
+    padding-top: 7px;
+}    
+    
+#divVoltar a{
+    color: #7A7A7A;
+    margin: 0;
+    width: 115px;	
+}    
+#divConteudoOutrosLinks h2{
+	padding: 3px 15px;	
+	border-top-left-radius: 20px;
+  	border-bottom-right-radius: 20px;	
+}
+
+
+#divParceiros{
+	text-align: center;	
+    background-color: #FFFFFF;
+    border-top-left-radius: 20px;
+    height: 150px;
+    width: 100%;
+    margin-bottom: 20px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+#divParceiros h2 {
+	background: url("../images/conteudo/hand.png") no-repeat scroll 99% center #DBAB33;
+	text-align: left;
+	margin: 0;
+}
+
+#divParceiros img{
+	float: left;
+	padding: 10px 5%;
+}
+
+#divParceiros img.imagem_bb
+{
+    height: 30%;
+    padding-left: 0;
+    width: 10%;
+}
+
+#divParceiros img.imagem_sebrae
+{
+    height: 28%;
+    width: 8%;
+}
+
+#divParceiros img.imagem_fenacom
+{
+    height: 31%;
+    width: 9%;
+}
+
+#divParceiros img.imagem_cni
+{
+    height: 28%;
+    width: 5%;
+}
+
+#divParceiros img.imagem_abdi
+{
+    height: 30%;
+    width: 5%;
+}
+
+#divParceiros img.imagem_apex
+{
+    float: right;
+    height: 28%;
+    padding-left: 0;
+    padding-right: 0;
+    width: 10%;	
+}
+
+#divParceiros  ul {
+	margin: 0 0 0 20px;
+	color: #255d64;
+	padding-top: 10px;
+	list-style-type: none;
+	clear: both;
+}
+
+#divParceiros  li {
+    padding: 0 5px;
+}
+
+/* ------------------------------
+#id divRodape styles
+------------------------------ */
+#divRodape {
+    position: relative;
+    width: auto;
+    overflow: hidden;
+    height: 100%;
+}
+
+#divMapaSite{
+	height: 150px;
+	overflow: hidden;
+	background-color: #d1dcdc;
+	padding: 30px 80px;
+}
+
+.LinksMapa{
+	float: left;
+	margin-right: 2%;
+	width: 20%;
+}
+
+.LinksLast{
+	float: left;
+	width: auto;
+}
+
+#divMapaSite a {
+	font-size: 10px;
+	color: #555757;
+}
+
+#divMapaSite .titulo
+{
+	font-size: 12px;
+	color: #4f99a3;
+	font-family: "OpenSans-Semibold";
+}
+
+#divMapaSite li {
+	border-left: 2px solid #95c5c5;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	display: block;	
+}
+
+#divMapaBrasil{
+	height: 50px;
+	background-color: #b1c1c3;
+	padding: 10px 80px;
+}
+
+#divMapaBrasil img{
+    width: 6%;
+}
+
+#divMapaBrasil .imagemAcesso{
+	float: left;
+	padding-top: 9px;
+	padding-left: 10%;
+}
+
+#divMapaBrasil .imagemBrasil{
+	float: right;
+	padding-top: 16px;
+	padding-right: 10%;
+}
+
+#divEndSecretaria{
+	height: 30px;
+	overflow: hidden;
+	background-color: #3f8089;
+	padding: 10px 80px;
+}
+
+#divEndSecretaria p{
+    color: #E8ECED;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#divSolucaoSerpro {
+	height: 20px;
+	overflow: hidden;
+	background-color: #e8eced;
+	padding: 15px 80px;	
+}
+
+#divSolucaoSerpro p {
+	color: #3f8089;
+	font-size: 11px;
+	text-align: center;
+	margin: 0;
+}
+
+span.destaque {
+	color: #249be6; 
+}
+
+
+/* ------------------------------
+#id #divConteudoDuasColunas styles
+------------------------------ */
+#divConteudoDuasColunas {
+    float: left;
+    margin-left: 2%;
+    width: 78%;
+}
+
+#divConteudoDuasColunasGeral{
+	background-color: #FFFFFF;
+	border-top-left-radius: 20px;
+	height: 800px;	
+}
+
+#divConteudoDuasColunasDetalhe{
+	overflow: hidden;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#divConteudoDuasColunas h2 {
+	border-top-left-radius: 20px;
+  	border-bottom-right-radius: 20px;	
+  	background: none no-repeat scroll 98% center #DBAB33;
+  	padding: 5px 0 5px 10px;
+  	margin: 0 0 12px 0;  	
+}
+
+#divConteudoDuasColunas h3{
+    font-size: 22px;
+    margin: 0;
+    border-bottom: 2px dotted #E3E5E5;
+}
+
+#divConteudoDuasColunas h4{
+	color: #255d64;	
+	border-bottom: 2px dotted #e3e5e5;
+	padding-bottom: 5px;
+	width: 99%;
+}
+
+#divConteudoDuasColunasDetalhe img {
+	float : left;
+    height: 10%;
+    width: 25%;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+#divConteudoDuasColunasDetalhe .Credito{
+	color: #787878;
+	font-size: 9px;
+	font-family: 'OpenSans-Italic';
+	width: 25%;
+	text-align: right;
+	margin-bottom: 2px;
+}
+
+#divConteudoDuasColunasDetalhe .Legenda{
+    color: #787878;
+    font-family: 'OpenSans-Italic';
+    font-size: 9px;
+    position: absolute;
+    text-align: left;
+    top: 40%;
+    width: 17%;
+}
+
+#divConteudoDuasColunasDetalhe .ConteudoNoticias{
+	margin-bottom: 20px;
+}
+
+#divConteudoDuasColunasDetalhe .SubTitulo {
+	color: #4799a3;
+	margin: 10px 0 50px;
+}
+
+#divConteudoDuasColunasDetalhe .Texto{
+	color: #585757;
+}
+
+#divConteudoDuasColunasDetalhe li {
+    border-bottom: 1px dotted #E3E5E5;
+    overflow: auto;
+    padding: 1.4em 0;
+    display: block;
+}
+
+#divConteudoDuasColunasDetalhe .OutrasNoticiasRelacionadas{
+	margin-top: 20px;
+}
+
+#divConteudoDuasColunasDetalhe .OutrasNoticiasRelacionadas .Titulo{
+	color: #dbab33;
+	font-size: 14px;
+	font-family: "OpenSans-Semibold";  	
+}
+
+#divConteudoDuasColunasDetalhe .OutrasNoticiasRelacionadas .SubTitulo{
+	color: #255d64;
+	font-size: 13px;
+	font-family: "OpenSans-Semibold";
+	margin-bottom: 10px;	
+	border-bottom: 2px dotted #E3E5E5;
+	padding-bottom: 5px;	
+}
+
+#divConteudoDuasColunasDetalhe .OutrasNoticiasRelacionadas .Texto{
+	color: #4799a3;
+	font-size: 12px;
+	font-family: "OpenSans-Regular";	
+}
+
+#divConteudoDuasColunasDetalhe .MaisNoticias{
+	float: right;
+	margin: 20px 0;
+}
+
+#divConteudoDuasColunasDetalhe .TodasNoticias
+{
+	color: #535353;
+    font-size: 10px;  	
+    height: 19px;
+    text-transform: uppercase;
+}
+
+#divConteudoDuasColunasDetalhe ul{
+	display: block;
+}
+
+#divConteudoDuasColunasDetalhe .DataHora {
+    color: #4799a3;
+    font-size: 12px;
+    margin-top: 0;
+}
+
+#divConteudoDuasColunasDetalhe li p.Hora {
+    float: left;
+    margin-top: 0;
+    width: 80px;
+    color: #ba8f23;
+}
+
+#divConteudoDuasColunasDetalhe .Noticia{
+    float: left;
+    width: 86%;	
+}
+
+#divConteudoDuasColunasDetalhe .DataNoticia{
+    position: absolute;
+	margin-top: 16px; 
+    width: 80px;
+    color: #ba8f23;
+}
+#divConteudoDuasColunasDetalhe .Data{
+    margin-left: 10px;
+ }
+
+.ItemNoticiaConteudo {
+    width: 100%;
+}
+
+#divConteudoDuasColunas .ItemNoticiaConteudo h3{
+	border: 0;	
+}
+
+.ChapeuEditoria {
+    font-size: 12px;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+    color: #848585;
+}
+
+#divConteudoDuasColunasDetalhe .IconeNoticias{
+	float : right;
+    height: 26px;
+    width: 26px;
+    margin: 0 0 0 20px;
+}
+
+#divConteudoDuasColunasDetalhe .MaisNoticias .IconeNoticias{
+    margin: -8px 0 0 10px;
+}
+
+span.telefone {
+	color: #DBAB33;
+}
+
+ #divConteudoDuasColunasDetalhe .label{
+ 	color: #255d64;	
+ } 
+ 
+.CampoObrigatorio{
+	font-size: 11px;
+	font-style: italic;
+	margin-left: 110px;
+	color: #255d64;
+}
+

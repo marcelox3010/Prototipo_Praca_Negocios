@@ -1,0 +1,398 @@
+@CHARSET "UTF-8";
+
+html {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #000000;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+fieldset, img {
+    border: 0 none;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style: normal;
+    font-weight: normal;
+}
+li {
+    list-style: none outside none;
+}
+caption, th {
+    text-align: left;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+q:before, q:after {
+    content: "";
+}
+abbr, acronym {
+    border: 0 none;
+    font-variant: normal;
+}
+sup {
+    vertical-align: text-top;
+}
+sub {
+    vertical-align: text-bottom;
+}
+input, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+input, textarea, select {
+}
+legend {
+    color: #000000;
+}
+body {
+    font: 12px/1.231 arial,helvetica,Trebuchet MS,clean,sans-serif;
+}
+select, input, button, textarea {
+    font: 99% arial,helvetica,Trebuchet MS,clean,sans-serif;
+}
+table {
+    font-size: inherit;
+}
+pre, code, kbd, samp, tt {
+    font-family: monospace;
+    line-height: 100%;
+}
+.line {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.unit, .unitline {
+}
+.group, .unitGroup {
+    float: left;
+    margin: 0 20px 0 0;
+    min-width: 180px;
+}
+.label, .unitLabel {
+    line-height: 20px;
+    min-height: 20px;
+}
+.data, .unitData {
+    min-height: 20px;
+}
+.buttons, .lineButtons {
+    clear: both;
+    margin-bottom: 20px;
+}
+* {
+    outline: medium none;
+}
+html {
+    background: none repeat scroll 0 0 transparent;
+    height: 100%;
+}
+body {
+    color: #333333;
+	font-size: 12px;
+}
+.nm {
+    margin: 0 !important;
+}
+.np {
+    padding: 0 !important;
+}
+.nb {
+    border: medium none !important;
+}
+h1 {
+    font-size: 14px;
+    font-weight: bold;
+}
+h2 {
+    font-size: 13px;
+    font-weight: bold;
+}
+h3 {
+    font-size: 12px;
+    font-weight: bold;
+}
+h4 {
+    font-size: 11px;
+}
+h5 {
+    font-size: 10px;
+}
+h6 {
+    font-size: 9px;
+}
+b, strong, .strong, .bold {
+    font-weight: bold;
+}
+i, em, .em .italic {
+    font-style: italic;
+}
+a {
+    cursor: pointer;
+    font: 12px/1.231 arial,helvetica,Trebuchet MS,clean,sans-serif !important;
+}
+a:link {
+}
+a:visited {
+}
+a:hover {
+}
+a:active {
+}
+.w1 {
+    width: 20px !important;
+}
+.w2 {
+    width: 40px !important;
+}
+.w3 {
+    width: 60px !important;
+}
+.w4 {
+    width: 80px !important;
+}
+.w5 {
+    width: 100px !important;
+}
+.w6 {
+    width: 120px !important;
+}
+.w7 {
+    width: 140px !important;
+}
+.w8 {
+    width: 160px !important;
+}
+.w9 {
+    width: 180px !important;
+}
+.w10 {
+    width: 200px !important;
+}
+.w11 {
+    width: 220px !important;
+}
+.w12 {
+    width: 240px !important;
+}
+.w13 {
+    width: 260px !important;
+}
+.w14 {
+    width: 280px !important;
+}
+.w15 {
+    width: 300px !important;
+}
+.w16 {
+    width: 320px !important;
+}
+.w17 {
+    width: 340px !important;
+}
+.w18 {
+    width: 360px !important;
+}
+.w19 {
+    width: 380px !important;
+}
+.w20 {
+    width: 400px !important;
+}
+.w25 {
+    width: 500px !important;
+}
+.w30 {
+    width: 600px !important;
+}
+.w40 {
+    width: 800px !important;
+}
+.w50 {
+    width: 1000px !important;
+}
+.h1 {
+    height: 20px !important;
+}
+.h2 {
+    height: 40px !important;
+}
+.h3 {
+    height: 60px !important;
+}
+.h4 {
+    height: 80px !important;
+}
+.h5 {
+    height: 100px !important;
+}
+.h6 {
+    height: 120px !important;
+}
+.h7 {
+    height: 140px !important;
+}
+.h8 {
+    height: 160px !important;
+}
+.h9 {
+    height: 180px !important;
+}
+.h10 {
+    height: 200px !important;
+}
+.h15 {
+    height: 300px !important;
+}
+.h20 {
+    height: 400px !important;
+}
+.h25 {
+    height: 500px !important;
+}
+.h30 {
+    height: 600px !important;
+}
+.h40 {
+    height: 800px !important;
+}
+.h50 {
+    height: 1000px !important;
+}
+.size1of1 {
+    float: none;
+    margin: 0 !important;
+}
+.size1of2 {
+    float: left;
+    margin: 0 !important;
+    width: 50%;
+}
+.size0of3 {
+    float: left;
+    margin: 0 !important;
+    width: 30%;
+}
+.size1of3 {
+    float: left;
+    margin: 0 !important;
+    width: 33.3333%;
+}
+.size2of3 {
+    float: left;
+    margin: 0 !important;
+    width: 66.6667%;
+}
+.size0of4 {
+    float: left;
+    margin: 0 !important;
+    width: 16%;
+}
+.size1of4 {
+    float: left;
+    margin: 0 !important;
+    width: 25%;
+}
+.size2of4 {
+    float: left;
+    margin: 0 !important;
+    width: 20%;
+}
+.size3of4 {
+    float: left;
+    margin: 0 !important;
+    width: 75%;
+}
+.size4of4 {
+    float: left;
+    margin: 0 !important;
+    width: 35%;
+}
+.size0of5 {
+    float: left;
+    margin: 0 !important;
+    width: 11%;
+}
+.size1of5 {
+    float: left;
+    margin: 0 !important;
+    width: 20%;
+}
+.size2of5 {
+    float: left;
+    margin: 0 !important;
+    width: 40%;
+}
+.size3of5 {
+    float: left;
+    margin: 0 !important;
+    width: 60%;
+}
+.size4of5 {
+    float: left;
+    margin: 0 !important;
+    width: 80%;
+}
+.center {
+    text-align: center !important;
+}
+.left {
+    text-align: left !important;
+}
+.right {
+    text-align: right !important;
+}
+.pa {
+    position: absolute;
+}
+.pr {
+    position: relative;
+}
+.ps {
+    position: static;
+}
+.pf {
+    position: fixed;
+}
+.fl {
+    float: left !important;
+}
+.fr {
+    float: right !important;
+}
+.fn {
+    float: none !important;
+}
+.cl {
+    clear: both !important;
+}
+.oh {
+    overflow: hidden !important;
+}
+.inline {
+    display: inline !important;
+}
+.block {
+    display: block !important;
+}
+.hidden {
+    display: none !important;
+}
+.like-TB {
+    display: table;
+}
+.like-TR {
+    display: table-row;
+    float: none !important;
+}
+.like-TD {
+    display: table-cell;
+    float: none !important;
+}
